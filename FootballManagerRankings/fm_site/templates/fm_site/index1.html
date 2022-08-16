@@ -1,0 +1,47 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Football Manager Rankings</title>
+    <link type="text/css" href="{% static 'fm_site/css/style.css' %}" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <p class="name">
+        Football <br>
+        Manager<br>
+        Ratings </p>
+    <div class="n"><a class=white href="{% url 'index' %}">Игроки</a> <a class=white href="{% url 'clubs' %}">Клубы </a>Персонал
+    </div>
+</header>
+<main>
+    <table border="0" width=1000px>
+        <tr class="zag">
+            <th width=30%>Игрок</th>
+            <th>Возраст</th>
+            <th>Позиция</th>
+            <th width=25%>Клуб</th>
+            <th>Нога</th>
+        </tr>
+        {% for i in posts %}
+        <tr class="players">
+            <td class=bold>{{i.name}}</td>
+            <td>{{i.age}}</td>
+            <td>{{i.position}}</td>
+            <td>{{i.club}}</td>
+            <td>{{i.foot}}</td>
+        </tr>
+        {% endfor %}
+        </tr>
+    </table>
+</main>
+<br>
+<br>
+<footer> Сайт создан для ознокомления с рейтингами игроков </br>
+    Контакты : <a href='https://vk.com/ikutin99'>ВКонтакте</a>
+
+</footer>
+</body>
+
+</html>

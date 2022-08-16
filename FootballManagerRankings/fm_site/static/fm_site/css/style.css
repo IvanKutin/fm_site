@@ -1,0 +1,109 @@
+body {
+background-image: linear-gradient(to bottom right,#2b2629,#e5258c);
+}
+
+header{
+    font-size : 95px;
+    color : #fff;
+    height: 300px;\\
+    font-style : "Helvetica", sans-serif;
+    font-weight: bold;
+    line-height: 0.9;
+    margin-top:50;
+    margin-left:40;
+    text-shadow: 20px 20px 20px black;
+}
+main{
+    text-align:center;
+}
+
+.n {
+font-size : 40px;
+margin-left:570 ;
+margin-top:-150 ;
+word-spacing:120;
+text-shadow: 5px 5px 5px black
+}
+
+footer{
+    height: 50px;
+    text-align:center;
+    color : #fff;
+    "Helvetica", sans-serif;
+}
+
+.table1 {
+width: 400;
+height: 50;
+background : #e8dfc3;
+border-radius : 20px;
+margin-left : -620px;
+margin-top : -70px;
+position : absolute;
+}
+.table2 {
+width: 400;
+height: 50;
+background : #e8dfc3;
+border-radius : 20px;
+margin-left : -150px;
+margin-top : -70px;
+position : absolute;
+}
+
+table {
+font-family : sans-serif;
+text-align : center;
+border-collapse : separate;
+border-spacing: 45px;
+background : #e8dfc3;
+border : 16px solid #e8dfc3;
+border-radius : 20px;
+font-style : "Helvetica", sans-serif;
+margin-left:60;
+margin-top : 100px;
+}
+
+th {
+text-align : center;
+font-style : "Helvetica", sans-serif;
+}
+
+tr {
+padding : 10px;
+height : 50px;
+background : #e8dfc3;
+font-style : "Helvetica", sans-serif;
+font-size : 25px;
+}
+.bold {
+font-weight: bold;
+}
+
+.white{
+color : #fff;
+text-decoration : none;
+}
+.zag {
+font-size : 25px;
+}
+
+.players {
+font-size: 20px}
+
+.page{
+font-size: 20px;
+font-weight: bold;
+font-style : "Helvetica", sans-serif;
+margin-top: -55px;
+margin-left: 200px;
+position : absolute;
+}
+.page1{
+font-size: 20px;
+font-weight: bold;
+font-style : "Helvetica", sans-serif;
+margin-top: -55px;
+margin-left: 700px;
+position : absolute;
+}
