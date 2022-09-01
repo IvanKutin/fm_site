@@ -19,6 +19,21 @@
     <a href="{% url 'next_page' %}">
         <button class="table2"> Следующая страница</button>
     </a>
+    <div class="filter"><h1> Фильтер игроков </h1>
+        <form action="{% url 'filter' %}" method="post" style="color: #1b1b1b">
+         {% csrf_token %}
+        <div class=text>
+            <p> Имя: <input name="name"></p>
+            <p> Возраст: от <input min=0 max=50 type="number" class=button name="age1"> до <input min=0 max=50
+                                                                                                  type="number"
+                                                                                                  class=button
+                                                                                                  name="age2"></p>
+            <p> Клуб: <input name="club"></p>
+            <p>
+                <a href="{% url 'filter' %}">
+                    <input value="Найти" type="submit"> </a></p></div>
+        </form>
+    </div>
     <table border="0" width=1000px>
         <tr class="zag">
             <th width=30%>Игрок</th>

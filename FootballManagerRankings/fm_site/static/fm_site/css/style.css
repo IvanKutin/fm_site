@@ -107,3 +107,30 @@ margin-top: -55px;
 margin-left: 700px;
 position : absolute;
 }
+
+.filter{
+border-radius : 20px;
+font-weight: bold;
+position : absolute;
+margin-left : 1085px;
+font-style : "Helvetica", sans-serif;
+font-size: 20px;
+margin-top : 5px;
+width: 400;
+height: 500;
+background : #9c9797;
+}
+
+h1{
+font-size: 20px;
+}
+.text{
+font-size: 20px;
+text-align : left;
+margin-left : 15px;
+font-weight: normal;
+}
+.button{
+width: 40;
+height: 25;
+}

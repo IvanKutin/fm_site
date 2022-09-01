@@ -27,6 +27,7 @@ urlpatterns = [
     path('clubs/', views.clubs, name='clubs'),
     path('next_page/', views.next_page, name='next_page'),
     path('prev_page/', views.prev_page, name='prev_page'),
+    path('filter',views.filter,name='filter')
 ]
 
 if settings.DEBUG:

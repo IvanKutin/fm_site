@@ -46,3 +46,6 @@ def prev_page(request):
     else:
         posts1 = posts[k * 10:(k + 1) * 10]
         return render(request, 'fm_site/index.html', {'posts': posts1})
+
+def filter(request):
+    return render(request, 'fm_site/index1.html',)
